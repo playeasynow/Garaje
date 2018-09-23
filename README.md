@@ -21,7 +21,7 @@ By building a physical space for people to consume locally sourced coffee and fo
 + Musical composition courses
 + and more...
 
-Founders and advisors of Garaje will produce the content, but it needs to live and be offered on an online platform. Additionally, guests of Garaje will be able to access the platform from their own home, but will only receive in-person instruction when they visit the coffee shop. 
+Founders and advisors of *Garaje* will produce the content, but it needs to live and be offered on an online platform. Additionally, guests of *Garaje* will be able to access the platform from their own home, but will only receive in-person instruction when they visit the coffee shop. 
 
 ## More on the software platform...
 This is where I need the most help. I want Garaje's unique proposition to the community to be this learning platform. Additionally, I want to integrate with e-commerce solutions that provide selling and billing solutions to the coffee shop side of the business. I envision various user access rights for business owners and customers of the business.
@@ -33,4 +33,4 @@ Where I think I need to build on more next:
 + How to monetize the software platform
 
 ## Conclusion
-The future of Garaje will be a convergence of software, community dialogue and delicious foods. Please let me know where I can expand on--I'm happy to discuss!
+The future of *Garaje* will be a convergence of software, community dialogue and delicious foods. Please let me know where I can expand on--I'm happy to discuss!
