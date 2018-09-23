@@ -6,7 +6,7 @@ Garaje means garage in Spanish. It's a café that meets an educational community
 ## the problem and the dream 
 Pasadena is in the heart of a booming economy in the state of Texas. In the last decade, Pasadena has seen a decline in small businesses and a rise in corporate franchises providing all commerce. The community has drastically and rapidly changed in demographics, and the chambers of commerce have not been able to keep up with providing basic needs.
 
-By building a phsyical space for people to consume locally sourced coffee and food, as well as access to a digital media platform that empowers entreprenuers' ideas, I believe we can spark sustainable growth in the city's economy. 
+By building a physical space for people to consume locally sourced coffee and food, as well as access to a digital media platform that empowers entreprenuers' ideas, I believe we can spark sustainable growth in the city's economy. 
 
 ## the plan 
 ### *business solution*
