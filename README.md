@@ -10,7 +10,7 @@ By building a physical space for people to consume locally sourced coffee and fo
 
 ## the plan 
 ### *business solution*
-*Garaje* will produce revenue via food and beverage sales. With my families Honduran and Colombian background, we can produce delicious small plates from a cuisine unique to the area. There is only one other coffee shop in Pasadena, so an additional option for residents will increase competition and healthy consumption.
+*Garaje* will produce revenue via food and beverage sales, as well as educational courses and partnerships. With my families Honduran and Colombian background, we can produce delicious small plates from a cuisine unique to the area. There is only one other coffee shop in Pasadena, so an additional option for residents will increase competition and healthy consumption.
 
 ### *software platform* 
 Garaje is a community space for building. In addition to public computers, the cloud-based platform will offer: 
