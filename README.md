@@ -27,7 +27,8 @@ Founders and advisors of *Garaje* will produce the content, but it needs to live
 This is where I need the most help. I want Garaje's unique proposition to the community to be this learning platform. Additionally, I want to integrate with e-commerce solutions that provide selling and billing solutions to the coffee shop side of the business. I envision various user access rights for business owners and customers of the business.
 
 Where I think I need to build on more next: 
-+ Scope of the lessons
++ Rolled out phased approach
++ Scope of the lessons (online and in-person)
 + Access to computers onsite and how use will be managed
 + Costs of building the software platform, and where I could use existing software solutions
 + How to monetize the software platform
