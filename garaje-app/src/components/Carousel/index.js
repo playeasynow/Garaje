@@ -9,17 +9,17 @@ function Carousel() {
     return (
         <div id="carouselExampleInterval" className="carousel slide" data-ride="carousel">
             <div className="carousel-inner">
-                <div className="carousel-item active" data-interval="6000">
+                <div className="carousel-item active" data-interval="10000">
                     <img src={GarajePic1} className="d-block w-100 carousel-pics" alt="main space" />
                     <div className="carousel-caption" id="caption-1">
                         <h1 className="caption-shadow">new coffee shop</h1>
                         <h1 className="caption-shadow">hondu-colombiano eats</h1>
-                        <h1 className="caption-shadow">community learning platform</h1>
+                        <h1 className="caption-shadow">community learning</h1>
                         <h1 className="welcome-garaje"><i><b>welcome to garaje</b></i></h1>
                         <img src={GarajeIcon} className="garaje-icon" alt="main space" />
                     </div>
                 </div>
-                <div className="carousel-item" data-interval="6000">
+                <div className="carousel-item" data-interval="10000">
                     <img src={GarajePic3} className="d-block w-100 carousel-pics" alt="people hanging out" />
                     <div className="carousel-caption" id="caption-2">
                         <h1 className="welcome-garaje"><i><b>coffee and food</b></i></h1>
@@ -76,13 +76,28 @@ function Carousel() {
                         </div>
                     </div>
                 </div>
-                <div className="carousel-item" data-interval="6000">
+                <div className="carousel-item" data-interval="10000">
                     <img src={GarajePic2} className="d-block w-100 carousel-pics" alt="main space" />
                     <div className="carousel-caption" id="caption-3">
                         <h1 className="welcome-garaje"><i><b>community learning</b></i></h1>
                         <h3 className="caption-shadow">garaje's mission is to empower people to learn, grow and thrive</h3>
                         <h3 className="caption-shadow">we want you to work on your personal projects with us</h3>
-                        <h3 className="caption-shadow">that's why we offer online video courses in web development, <br></br>creative writing, public speaking and music composition, with more to come.</h3>
+                        <h3 className="caption-shadow">that's why we offer online video courses in web development, <br></br>creative writing and music composition, with more to come.</h3>
+                        <div className="row mt-5 text-center">
+                            <div className="col">
+                                <i className="fas fa-user-plus iconic2 mb-3"></i> <br></br>
+                                sign up for free to create an account <br></br>and save your course progress
+                            </div>
+                            <div className="col">
+                                <i className="fas fa-hand-pointer iconic2 mb-3"></i> <br></br>
+                                review course summaries and select a <br></br>course-track you are interested in
+                            </div>
+                            <div className="col">
+                                <i className="fas fa-atom iconic2 mb-3"></i><br></br>
+                                learn in our space, or access the site <br></br>from the comfort of your own home!
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>

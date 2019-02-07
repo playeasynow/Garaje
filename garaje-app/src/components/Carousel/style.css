@@ -16,7 +16,7 @@
 }
 
 #caption-3 {
-    bottom: 38rem;
+    bottom: 30rem;
 }
 
 .garaje-icon {
@@ -51,4 +51,9 @@
 
 .heading {
     color: #5cb487;
+}
+
+.iconic2 {
+    font-size: 5rem;
+    color: #00897b;
 }
