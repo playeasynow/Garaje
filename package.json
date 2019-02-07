@@ -1,0 +1,24 @@
+{
+  "name": "garaje",
+  "version": "1.0.0",
+  "description": "## tl;dr ... jk please read  Garaje means garage in Spanish. It's a café that meets an educational community space in Pasadena, TX. The concept involves a four-walled business powered by a dynamic education software platform. *Garaje* is an homage to intimate home garages that often produce and empower personal projects.",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd garaje-app && npm start",
+    "client": "cd garaje-app && yarn start",
+    "install": "cd garaje-app && yarn install",
+    "build": "cd garaje-app && yarn build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "heroku-postbuild": "cd garaje-app && npm install --only=dev && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/playeasynow/Garaje.git"
+  },
+  "author": "ezequiel calderon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/playeasynow/Garaje/issues"
+  },
+  "homepage": "https://github.com/playeasynow/Garaje#readme"
+}
