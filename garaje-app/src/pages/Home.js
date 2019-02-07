@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import scrollToComponent from 'react-scroll-to-component';
-import Jumbotron from "../components/Jumbotron";
+// import Jumbotron from "../components/Jumbotron";
 import { Col, Row, Container } from "../components/Grid";
 import Nav from "../components/Nav";
+import Carousel from "../components/Carousel"
 import { Link } from "react-router-dom";
 import "./style.css";
 
@@ -42,13 +43,14 @@ class Home extends Component {
         <Row>
           <Col size="md-12">
             <div id="first-row">
-              <Jumbotron>
-                <h1 className="text-left mt-5 pt-3 text-center headline animated slideInDown first-headline" ref={(section) => { this.Top = section; }}>
+              {/* <Jumbotron> */}
+                {/* <h1 className="text-left mt-5 pt-3 text-center headline animated slideInDown first-headline" ref={(section) => { this.Top = section; }}>
                   <strong>find a coach today. for free.</strong>
                 </h1>
                 <h4 className="text-center">personal, business and fitness coaching</h4>
-                <div className="container"><p className="btn next-page animated infinite pulse hvr-underline-from-center works-btn" onClick={() => scrollToComponent(this.One, { offset: 0, align: 'top', duration: 300, ease: 'inQuad' })}>how it works</p></div>
-              </Jumbotron>
+                <div className="container"><p className="btn next-page animated infinite pulse hvr-underline-from-center works-btn" onClick={() => scrollToComponent(this.One, { offset: 0, align: 'top', duration: 300, ease: 'inQuad' })}>how it works</p></div> */}
+                <Carousel />
+              {/* </Jumbotron> */}
             </div>
           </Col>
         </Row>

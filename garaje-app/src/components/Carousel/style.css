@@ -1,0 +1,31 @@
+#caption-1 {
+    bottom: 35rem;
+}
+
+.caption-shadow {
+    text-shadow: 0px 2px 8px lightseagreen;
+}
+
+.welcome-garaje {
+    font-size: 5rem;
+    text-shadow: 0px 2px 8px lightgrey;
+}
+
+#caption-2 {
+    bottom: 44rem;
+}
+
+#caption-3 {
+    bottom: 52rem;
+}
+
+.carousel-caption {
+    z-index: 0;
+}
+
+.carousel-pics {
+    max-width: 100%;
+    /* height: 100vh; */
+    /* position: cover; */
+    filter: brightness(38%);
+}

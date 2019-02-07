@@ -45,7 +45,7 @@ class NavAuth extends Component {
         return (
             <nav className="navbar navbar-expand-lg navbar-light">
                 <div className="container pl-0">
-                    <Link className="navbar-brand pt-3 pb-0" to="/">
+                    <Link className="navbar-brand" to="/home">
                         <div className="logo">garaje</div>
                     </Link>
                     <button
@@ -59,34 +59,44 @@ class NavAuth extends Component {
                     >
                         <span className="navbar-toggler-icon" />
                     </button>
+
+                    <div className="input-group">
+                        <input type="text" className="form-control" placeholder="find a course" aria-label="Recipient's username" aria-describedby="button-addon2" />
+                        <div className="input-group-append">
+                            <button className="btn btn-outline-dark" type="button" id="button-addon2">search</button>
+                        </div>
+                    </div>
+
                     <div className={`${this.state.open ? "" : "collapse "}navbar-collapse justify-content-end`}>
                         <ul className="nav">
-                            <li className="nav-item mt-3 hvr-reveal">
+
+                            <li className="nav-item mt-3">
                                 <Link
                                     onClick={this.toggleNav}
                                     className={window.location.pethname === "/" ? "nav-link active" : "nav-link"}
-                                    to="/"
+                                    to="/home"
                                 >
-                                    <h4 className="oswald-font">home</h4>
+                                    <h4 className="roboto-font">categories</h4>
                                 </Link>
                             </li>
-                            {/* <li className="nav-item mt-3 hvr-reveal">
+
+                            <li className="nav-item mt-3">
                                 <Link
                                     onClick={this.toggleNav}
                                     className={window.location.pethname === "/" ? "nav-link active" : "nav-link"}
-                                    to="/coaches"
+                                    to="/signin"
                                 >
-                                    <h4 className="oswald-font">for coaches</h4>
+                                    <h4 className="roboto-font">cafe menu</h4>
                                 </Link>
-                            </li> */}
+                            </li>
 
-                            <li className="nav-item mt-3 hvr-reveal">
+                            <li className="nav-item mt-3">
                                 <Link
                                     onClick={this.toggleNav}
                                     className={window.location.pethname === "/" ? "nav-link active" : "nav-link"}
                                     to="/clientaccount"
                                 >
-                                    <h4 className="oswald-font">my account</h4>
+                                    <h4 className="roboto-font">my account</h4>
                                 </Link>
                             </li>
 
@@ -99,6 +109,7 @@ class NavAuth extends Component {
                                     <SignOutButton />
                                 </Link>
                             </li>
+
                         </ul>
                     </div>
                 </div>
@@ -140,7 +151,7 @@ class NavNonAuth extends Component {
         return (
             <nav className="navbar sticky-top navbar-expand-lg navbar-light">
                 <div className="container pl-0">
-                    <Link className="navbar-brand pt-3 pb-0" to="/">
+                    <Link className="navbar-brand mt-1" to="/home">
                         <div className="logo">garaje</div>
                     </Link>
                     <button
@@ -154,58 +165,56 @@ class NavNonAuth extends Component {
                     >
                         <span className="navbar-toggler-icon" />
                     </button>
+
+                    <div className="input-group mt-2">
+                        <input type="text" className="form-control" placeholder="find a course" aria-label="Recipient's username" aria-describedby="button-addon2" />
+                        <div className="input-group-append">
+                            <button className="btn btn-outline-dark" type="button" id="button-addon2">search</button>
+                        </div>
+                    </div>
+                    
                     <div className={`${this.state.open ? "" : "collapse "}navbar-collapse justify-content-end`}>
                         <ul className="nav">
-                            <li className="nav-item mt-3 hvr-reveal">
+
+                            <li className="nav-item mt-3">
                                 <Link
                                     onClick={this.toggleNav}
                                     className={window.location.pethname === "/" ? "nav-link active" : "nav-link"}
                                     to="/signup"
                                 >
-                                    <h4 className="oswald-font">get started</h4>
+                                    <h4 className="roboto-font">categories</h4>
                                 </Link>
                             </li>
-                            {/* <li className="nav-item mt-3 hvr-reveal">
-                                <Link
-                                    onClick={this.toggleNav}
-                                    className={window.location.pethname === "/" ? "nav-link active" : "nav-link"}
-                                    to="/coaches"
-                                >
-                                    <h4 className="oswald-font">for coaches</h4>
-                                </Link>
-                            </li> */}
 
-                            {/* <li className="nav-item mt-3">
-                                <Link
-                                    onClick={this.toggleNav}
-                                    className={window.location.pethname === "/" ? "nav-link active" : "nav-link"}
-                                    to="/account"
-                                >
-                                    <h4 className="oswald-font">account</h4>
-                                </Link>
-                            </li> */}
-
-                            <li className="nav-item mt-3 hvr-reveal">
+                            <li className="nav-item mt-3">
                                 <Link
                                     onClick={this.toggleNav}
                                     className={window.location.pethname === "/" ? "nav-link active" : "nav-link"}
                                     to="/signin"
                                 >
-                                    <h4 className="oswald-font">login</h4>
+                                    <h4 className="roboto-font">cafe menu</h4>
                                 </Link>
                             </li>
-                            {/* <li className="nav-item mt-3">
-                                <SignOutButton />
-                            </li> */}
-                            {/* <li className="nav-item mt-3">
+
+                            <li className="nav-item mt-3">
                                 <Link
                                     onClick={this.toggleNav}
                                     className={window.location.pethname === "/" ? "nav-link active" : "nav-link"}
-                                    to="/admin"
+                                    to="/signin"
                                 >
-                                    <h4 className="oswald-font">admin</h4>
+                                    <h4 className="roboto-font">login</h4>
                                 </Link>
-                            </li> */}
+                            </li>
+
+                            <li className="nav-item mt-3">
+                                <Link
+                                    onClick={this.toggleNav}
+                                    className={window.location.pethname === "/" ? "nav-link active" : "nav-link"}
+                                    to="/signin"
+                                >
+                                    <h4 className="roboto-font">sign up</h4>
+                                </Link>
+                            </li>
                         </ul>
                     </div>
                 </div>
