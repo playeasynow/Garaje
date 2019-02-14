@@ -3,12 +3,14 @@
 }
 
 .caption-shadow {
-    text-shadow: 0px 2px 8px lightseagreen;
+    /* text-shadow: 0px 2px 8px lightseagreen; */
+    text-shadow: 0 0.125rem 0.5rem rgba(0,0,0,0.16);
 }
 
 .welcome-garaje {
     font-size: 5rem;
-    text-shadow: 0px 2px 8px lightgrey;
+    /* text-shadow: 0px 2px 8px lightgrey; */
+    text-shadow: 0 0.125rem 0.5rem rgba(0,0,0,0.16);
 }
 
 #caption-2 {

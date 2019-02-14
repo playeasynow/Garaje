@@ -4,7 +4,7 @@ import scrollToComponent from 'react-scroll-to-component';
 import { Col, Row, Container } from "../components/Grid";
 import Nav from "../components/Nav";
 import Carousel from "../components/Carousel"
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import "./style.css";
 
 class Home extends Component {
@@ -55,7 +55,7 @@ class Home extends Component {
           </Col>
         </Row>
 
-        <Row>
+        {/* <Row>
           <Col size="md-12">
             <div id="second-row" className="container-fluid" ref={(section) => { this.One = section; }}>
               <div className="container border-box text-center">
@@ -99,9 +99,9 @@ class Home extends Component {
               </div>
             </div>
           </Col>
-        </Row>
+        </Row> */}
 
-        <Row>
+        {/* <Row>
           <Col size="md-12">
             <div id="third-row" className="container-fluid" ref={(section) => { this.Two = section; }}>
               <div className="container border-box text-center">
@@ -128,9 +128,9 @@ class Home extends Component {
               </div>
             </div>
           </Col>
-        </Row>
+        </Row> */}
 
-        <Row>
+        {/* <Row>
           <Col size="md-12">
             <div id="fourth-row" className="container-fluid" ref={(section) => { this.Three = section; }}>
               <div className="container border-box">
@@ -180,7 +180,7 @@ class Home extends Component {
               </div>
             </div>
           </Col>
-        </Row>
+        </Row> */}
       </Container>
     );
   }

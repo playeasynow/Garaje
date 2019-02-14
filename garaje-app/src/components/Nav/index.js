@@ -84,7 +84,7 @@ class NavAuth extends Component {
                                 <Link
                                     onClick={this.toggleNav}
                                     className={window.location.pethname === "/" ? "nav-link active" : "nav-link"}
-                                    to="/signin"
+                                    to="/home"
                                 >
                                     <h4 className="roboto-font">cafe menu</h4>
                                 </Link>
@@ -94,7 +94,7 @@ class NavAuth extends Component {
                                 <Link
                                     onClick={this.toggleNav}
                                     className={window.location.pethname === "/" ? "nav-link active" : "nav-link"}
-                                    to="/clientaccount"
+                                    to="/home"
                                 >
                                     <h4 className="roboto-font">my account</h4>
                                 </Link>
@@ -180,7 +180,7 @@ class NavNonAuth extends Component {
                                 <Link
                                     onClick={this.toggleNav}
                                     className={window.location.pethname === "/" ? "nav-link active" : "nav-link"}
-                                    to="/signup"
+                                    to="/home"
                                 >
                                     <h4 className="roboto-font">categories</h4>
                                 </Link>
@@ -190,7 +190,7 @@ class NavNonAuth extends Component {
                                 <Link
                                     onClick={this.toggleNav}
                                     className={window.location.pethname === "/" ? "nav-link active" : "nav-link"}
-                                    to="/signin"
+                                    to="/home"
                                 >
                                     <h4 className="roboto-font">cafe menu</h4>
                                 </Link>
@@ -200,7 +200,7 @@ class NavNonAuth extends Component {
                                 <Link
                                     onClick={this.toggleNav}
                                     className={window.location.pethname === "/" ? "nav-link active" : "nav-link"}
-                                    to="/signin"
+                                    to="/home"
                                 >
                                     <h4 className="roboto-font">login</h4>
                                 </Link>
@@ -210,7 +210,7 @@ class NavNonAuth extends Component {
                                 <Link
                                     onClick={this.toggleNav}
                                     className={window.location.pethname === "/" ? "nav-link active" : "nav-link"}
-                                    to="/signin"
+                                    to="/home"
                                 >
                                     <h4 className="roboto-font">sign up</h4>
                                 </Link>
