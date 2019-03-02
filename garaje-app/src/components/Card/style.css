@@ -12,3 +12,7 @@
 .card-header {
     border-bottom: 2px solid black;
 }
+
+.card {
+    width: 15rem;
+}
